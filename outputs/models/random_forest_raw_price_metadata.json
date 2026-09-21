@@ -1,0 +1,54 @@
+{
+    "model_name": "Random Forest Regressor",
+    "target": "price",
+    "target_unit": "lakh",
+    "target_transformation": "none",
+    "training_rows": 4815,
+    "test_rows": 1204,
+    "features": [
+        "vehicle_age",
+        "kilometers_driven",
+        "mileage_kmpl",
+        "engine_cc",
+        "power_bhp",
+        "seats",
+        "brand",
+        "location",
+        "fuel_type",
+        "transmission",
+        "owner_type"
+    ],
+    "numeric_features": [
+        "vehicle_age",
+        "kilometers_driven",
+        "mileage_kmpl",
+        "engine_cc",
+        "power_bhp",
+        "seats"
+    ],
+    "categorical_features": [
+        "brand",
+        "location",
+        "fuel_type",
+        "transmission",
+        "owner_type"
+    ],
+    "random_state": 42,
+    "test_size": 0.2,
+    "hyperparameters": {
+        "n_estimators": 300,
+        "max_depth": null,
+        "min_samples_leaf": 2,
+        "max_features": "sqrt"
+    },
+    "test_metrics": {
+        "mae_lakh": 1.784,
+        "rmse_lakh": 3.917,
+        "r2": 0.875
+    },
+    "libraries": {
+        "scikit_learn": "1.9.1",
+        "pandas": "3.0.6",
+        "numpy": "2.5.3"
+    }
+}

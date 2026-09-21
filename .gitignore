@@ -1,0 +1,26 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and build files
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Trained model artifacts
+outputs/models/*.joblib
+outputs/models/*.pkl
+
+# Keep metadata about selected models
+!outputs/models/*_metadata.json
+
+# System and editor files
+.DS_Store
+Thumbs.db
+.vscode/
