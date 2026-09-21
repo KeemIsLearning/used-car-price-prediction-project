@@ -48,8 +48,8 @@ License: CC0 Public Domain https://creativecommons.org/publicdomain/zero/1.0/
 ```text
 used-car-price-prediction/
 ├── data/
-│   ├── raw/                         # Original Kaggle dataset (may be excluded from Git)
-│   └── processed/
+│   ├── raw form/                         # Original Kaggle dataset (may be excluded from Git)
+│   └── processed form/
 │       └── used_cars_cleaned.csv    # Cleaned labelled dataset
 ├── notebooks/
 │   ├── 01_data_cleaning.ipynb       # Cleaning and feature engineering
