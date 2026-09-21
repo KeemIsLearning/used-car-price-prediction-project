@@ -39,8 +39,8 @@ The dataset contains used-car listings with vehicle details such as:
 The target variable is `price`, measured in Indian lakh.
 
 ### Dataset source
-https://www.kaggle.com/datasets/ayushparwal2026/cars-dataset
-https://creativecommons.org/publicdomain/zero/1.0/
+Source: [Cars Dataset]https://www.kaggle.com/datasets/ayushparwal2026/cars-dataset
+License: CC0 Public Domain https://creativecommons.org/publicdomain/zero/1.0/
 
 
 ## Repository structure
@@ -189,8 +189,7 @@ Selected generated charts are stored in `outputs/figures/`, including:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/used-car-price-prediction.git
-cd used-car-price-prediction
+git clone [https://github.com/KeemIsLearning/used-car-price-prediction-project.git]
 ```
 
 ### 2. Create and activate a virtual environment
